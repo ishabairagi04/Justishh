@@ -1,16 +1,22 @@
 
-import Home from './components/Home/Home'
-import './App.css'
-
-
-function App() {
   
 
+import React from 'react'
+import AboutUs from './components/AboutUs/AboutUs'
+import Footer from './components/Footer/Footer'
+import Navbar from './components/Navbar/Navbar'
+import Shop from './components/Shop/Shop'
+
+
+export default function App() {
   return (
-    <>
-      <Home />   
-       </>
+
+    <div>
+      <Navbar />
+      <Shop />
+      <AboutUs />
+      <Footer />
+    </div>
+
   )
 }
-
-export default App
